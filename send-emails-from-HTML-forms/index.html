@@ -7,9 +7,11 @@
 </head>
 <body>
     <form target="_blank" action="https://fromsubmit.co/culture@olveremedia.com" method="post">
-        <input type="text">
-        <input type="text">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input placeholder="Full name"="text" name="name">
+        <input placeholder="Email Adress" type="email" required name="email">
+        <textarea placeholder="Your message" name="message"></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://yourdomainname.com/thankyou.html">
         <input type="submit">
     </form>
 </body>
